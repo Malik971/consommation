@@ -7,7 +7,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, LSTM
 
 # Chargement des données
-df = pd.read_csv('C:\Users\Malik\fidle\fidle-tp\donnees.csv', sep=';')
+df = pd.read_csvdf = pd.read_csv('C:\\Users\\Malik\\fidle\\fidle-tp\\donnees.csv', sep=';')
 
 # Supprimer les colonnes ne contenant que des NaN
 df.dropna(axis=1, how="all", inplace=True)
